@@ -40,7 +40,7 @@ The repository also has a GitHub branch named `wiki` that contains the converted
 - [`PtolemyDataTinPrep.md`](https://github.com/mwkorver/ptolemy3d/blob/wiki/PtolemyDataTinPrep.md) describes the historical TIN-generation process from DEM input, including point reduction, triangulation, triangle-strip generation, and the big-endian binary TIN file layout.
 - [`PtolemyParameters.md`](https://github.com/mwkorver/ptolemy3d/blob/wiki/PtolemyParameters.md) lists configuration parameters that connect the viewer to JP2 stores, DEM stores, layer widths, tile naming, TIN enablement, and plugin setup.
 
-The local `wiki/` directory in this repository contains related `.wiki` exports, but the `wiki` branch is the GitHub-rendered Markdown version and should be reviewed when reconstructing historical behavior.
+The local `wiki/` directory in this repository contains related `.wiki` exports, but the `wiki` branch is the GitHub-rendered Markdown version and should be reviewed when reconstructing historical behavior. See [`WIKI_ANALYSIS.md`](WIKI_ANALYSIS.md) for a page-by-page inventory and summary.
 
 ## Runtime data relationship
 

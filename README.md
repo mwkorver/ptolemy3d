@@ -24,7 +24,7 @@ JP2 imagery tile -> decoded texture -> TIN/DEM terrain tile -> textured terrain 
 
 The historical project wiki is preserved on the repository's [`wiki` branch](https://github.com/mwkorver/ptolemy3d/tree/wiki). Those pages provide additional background on the original Java/JOGL viewer goals, tiled JP2 image preparation, EPSG:4326 tile system, TIN generation, and applet parameters.
 
-For a focused explanation of the repository's main value proposition, see [`docs/JP2_TIN_PIPELINE.md`](docs/JP2_TIN_PIPELINE.md). It describes how Ptolemy3D loads JP2/JPEG2000 imagery, pairs it with TIN/DEM terrain, and renders textured terrain tiles.
+For a focused explanation of the repository's main value proposition, see [`docs/JP2_TIN_PIPELINE.md`](docs/JP2_TIN_PIPELINE.md). It describes how Ptolemy3D loads JP2/JPEG2000 imagery, pairs it with TIN/DEM terrain, and renders textured terrain tiles. For a page-by-page review of the historical wiki corpus, see [`docs/WIKI_ANALYSIS.md`](docs/WIKI_ANALYSIS.md).
 
 ## Repository layout
 
