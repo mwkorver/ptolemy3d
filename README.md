@@ -1,6 +1,6 @@
 # Ptolemy3D
 
-Ptolemy3D is a legacy Java/JOGL geospatial visualization platform developed by Alchemedia Inc. in Tokyo during the early 2000s, before the emergence of WebGL and before Google's acquisition of Keyhole brought 3D mapping into the mainstream.
+Ptolemy3D is a legacy Java/JOGL geospatial visualization platform developed by Alchemedia Inc. in Tokyo during the early 2000s, before the emergence of WebGL and before Google's acquisition of Keyhole brought 3D mapping into the mainstream. It was originally named Jetstream3D.
 
 Its primary innovation was a tiled geospatial rendering pipeline capable of streaming JPEG2000 imagery tiles, decoding JP2 data at multiple resolutions, loading corresponding terrain tiles from TIN or DEM datasets, and rendering imagery draped over 3D terrain directly within a web browser. At a time when most web mapping applications were limited to 2D views, Ptolemy3D provided interactive globe-scale visualization with multi-resolution terrain and imagery.
 
