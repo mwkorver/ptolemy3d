@@ -1,6 +1,10 @@
 # Ptolemy3D
 
-Ptolemy3D is a legacy Java/JOGL geospatial viewer that was built as a browser applet before WebGL. It was built in Tokyo by a team a Alchemedia Inc before Google bought Keyhole to implement 3D maps in the browser. Its primary innovation was it's tiled geospatial rendering pipeline: it can request JPEG2000 imagery tiles, decode JP2 data at multiple resolutions, load matching TIN or DEM terrain tiles, and render the decoded imagery over terrain geometry in the browser.
+Ptolemy3D is a legacy Java/JOGL geospatial visualization platform developed by Alchemedia Inc. in Tokyo during the early 2000s, before the emergence of WebGL and before Google's acquisition of Keyhole brought 3D mapping into the mainstream.
+
+Its primary innovation was a tiled geospatial rendering pipeline capable of streaming JPEG2000 imagery tiles, decoding JP2 data at multiple resolutions, loading corresponding terrain tiles from TIN or DEM datasets, and rendering imagery draped over 3D terrain directly within a web browser. At a time when most web mapping applications were limited to 2D views, Ptolemy3D provided interactive globe-scale visualization with multi-resolution terrain and imagery.
+
+The platform's first production deployment was a large-format touchscreen kiosk installed for the opening of the Hachinohe Shinkansen station in Japan, allowing visitors to explore high-resolution geospatial content in three dimensions. Ptolemy3D later evolved into a broader framework for web-based geospatial visualization, demonstrating many concepts that would eventually become standard in modern 3D mapping platforms.
 
 The applet runtime, JOGL 1.x bindings, and browser integration are historical. The most important parts of the repository for preservation or modernization are the JP2 imagery decoder, tiled terrain model, TIN/DEM readers, texture generation path, and renderer logic that drapes imagery over terrain.
 
