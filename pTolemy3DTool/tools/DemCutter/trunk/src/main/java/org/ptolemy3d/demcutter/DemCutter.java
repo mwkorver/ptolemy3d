@@ -172,28 +172,7 @@ public class DemCutter {
         options.addOption(inputDirectoryOp);
         options.addOption(helpOp);
 
-        // Create the options parser
-        CommandLineParser parser = new GnuParser();
-        try {
-            // parse the command line arguments
-            CommandLine line = parser.parse(options, args);
-
-
-            // Check if need to show help
-            if (line.hasOption("h")) {
-                HelpFormatter formatter = new HelpFormatter();
-                formatter.printHelp("DemCutter", options);
-                System.exit(1);
-            }
-
-            if (line.hasOption("i")) {
-                String input = line.getOptionValue("i");
-                System.out.println("Input dir: " + input);
-            }
-        } catch (ParseException exp) {
-            logger.severe("Parsing failed.  Reason: " + exp.getMessage());
-            System.exit(1);
-        }
+        // Options parser bypassed to allow positional arguments directly
 
 
 
@@ -279,7 +258,7 @@ public class DemCutter {
                 // Go through dem headers and get best dem resolution
                 float dv = getBestDemValue(xval, yval, numHeaders);
 
-                System.out.println("Elev (" + xval + "/" + yval + "): " + dv);
+                // System.out.println("Elev (" + xval + "/" + yval + "): " + dv);
 
                 if (((i == 0) && (j == 0))
                         || ((i == 0) && (j == (nCellsX - 1)))
